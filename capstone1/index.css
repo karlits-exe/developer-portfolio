@@ -94,6 +94,14 @@ button.navbar-toggler {
   color: var(--text) !important;
 }
 
+a.nav-link:hover {
+    color: var(--primary) !important;
+}
+
+a.nav-link::after {
+    color: var(--primary) !important;
+}
+
 /* End of Navbar */
 
 /* Landing */
@@ -184,11 +192,12 @@ h5.card-title {
 
 /* Contact */
 #contact {
-  height: 70vh;
+  height: 80vh;
 }
 
 #form-border{
-    box-shadow: var(--shadow-m);
+    box-shadow: var(--shadow-l);
+    background-color: var(--bg);
 }
 
 div input,
