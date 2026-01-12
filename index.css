@@ -95,11 +95,11 @@ button.navbar-toggler {
 }
 
 a.nav-link:hover {
-    color: var(--primary) !important;
+  color: var(--primary) !important;
 }
 
 a.nav-link::after {
-    color: var(--primary) !important;
+  color: var(--primary) !important;
 }
 
 /* End of Navbar */
@@ -110,28 +110,30 @@ a.nav-link::after {
   background-color: var(--bg);
 }
 
-.hero-right h1, .hero-right h2 {
+.hero-right h1,
+.hero-right h2 {
   color: var(--text);
   font-size: clamp(2.5rem, 5vw, 3.5rem) !important;
 }
 
 .hero-right a {
-    background-color: transparent;
-    color: var(--text);
-    box-shadow: var(--shadow-s);
-    text-decoration: none;
-    cursor: pointer;
+  background-color: transparent;
+  color: var(--text);
+  box-shadow: var(--shadow-s);
+  text-decoration: none;
+  cursor: pointer;
 }
 
-.hero-right a#call-to-action{
-    background-color: transparent;
-    color: var(--text);
-    border: 1px solid var(--primary);
-    box-shadow: var(--shadow-s);
+.hero-right a#call-to-action {
+  background-color: transparent;
+  color: var(--text);
+  border: 1px solid var(--primary);
+  box-shadow: var(--shadow-s);
 }
 
-.hero-right a:hover, .hero-right a#call-to-action:hover {
-    background-color: var(--bg-light);
+.hero-right a:hover,
+.hero-right a#call-to-action:hover {
+  background-color: var(--bg-light);
 }
 
 .hero-right p {
@@ -155,39 +157,39 @@ h1.text-center {
 }
 
 h5.card-title {
-    color: var(--text);
+  color: var(--text);
 }
 
 .card-body #project-link {
-    background-color: transparent !important;
-    border: var(--primary); 
+  background-color: transparent !important;
+  border: var(--primary);
 }
 
 .card {
-    background-color: var(--bg) !important;
-    box-shadow: var(--shadow-m);
-    border: 1px solid var(--border-muted) !important;
+  background-color: var(--bg) !important;
+  box-shadow: var(--shadow-m);
+  border: 1px solid var(--border-muted) !important;
+  width: 18rem !important;
 }
 
-.card:hover{
-    background-color: var(--bg-light) !important;
-    box-shadow: var(--shadow-l);
-    border: 1px solid var(--border);
+.card:hover {
+  background-color: var(--bg-light) !important;
+  box-shadow: var(--shadow-l);
+  border: 1px solid var(--border);
 }
-
 
 #project-link {
-    background-color: transparent !important;
-    border: 1px solid var(--primary) !important;
-    padding: 0.5rem;
-    text-decoration: none;
-    color: var(--text);
+  background-color: transparent !important;
+  border: 1px solid var(--primary) !important;
+  padding: 0.5rem;
+  text-decoration: none;
+  color: var(--text);
 }
 /* Projects End */
 
 /* Tools */
 #tools {
-    background-color: var(--bg);
+  background-color: var(--bg);
 }
 
 /* Contact */
@@ -195,9 +197,9 @@ h5.card-title {
   height: 80vh;
 }
 
-#form-border{
-    box-shadow: var(--shadow-l);
-    background-color: var(--bg);
+#form-border {
+  box-shadow: var(--shadow-l);
+  background-color: var(--bg);
 }
 
 div input,
@@ -210,19 +212,20 @@ div label {
   color: var(--text) !important;
 }
 
-input, textarea {
-    border: 1px solid var(--border-muted) !important;
-    box-shadow: var(--shadow-l);
+input,
+textarea {
+  border: 1px solid var(--border-muted) !important;
+  box-shadow: var(--shadow-l);
 }
 
 input::placeholder {
   color: var(--text-muted) !important;
 }
 
-#submit-button{
-    background-color: transparent !important;
-    color: var(--text);
-    border: 1px solid var(--primary);
+#submit-button {
+  background-color: transparent !important;
+  color: var(--text);
+  border: 1px solid var(--primary);
 }
 
 @media (min-width: 768px) {
